@@ -1,0 +1,21 @@
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: always
+    include-exception: true
+    whitelabel:
+      enabled: false
+
+spring:
+  jpa:
+    show-sql: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    groups-order: asc
+    operations-sorter: method
+    supported-submit-methods: []
+  api-docs:
+    path: /api-docs
+  use-fqn: true
