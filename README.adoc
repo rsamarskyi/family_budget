@@ -1,0 +1,31 @@
+= Training Start Project
+
+== Building
+
+To build your project
+```
+./mvnw clean build -DskipTests
+```
+
+To launch your tests:
+```
+./mvnw clean test
+```
+
+To package your application:
+```
+./mvnw clean package
+```
+
+== Run application
+- start entire app
+```shell
+docker-compose -f docker-compose.local.yml up
+```
+
+- start mysql separately
+```shell
+docker-compose -f docker-compose.local.yml up -d db
+```
+
+
