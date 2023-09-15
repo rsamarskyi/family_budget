@@ -8,7 +8,7 @@
     <changeSet id="2021-10-08-1-aivanouski" author="Aliaksei Ivanouski">
         <comment>Add schema</comment>
         <sql>
-            create schema if not exists `paneldb`;
+            create schema if not exists `budget`;
         </sql>
     </changeSet>
     <changeSet id="2021-10-08-2-aivanouski" author="Aliaksei Ivanouski">
