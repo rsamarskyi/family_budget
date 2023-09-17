@@ -15,7 +15,7 @@ springdoc:
     path: /swagger-ui.html
     groups-order: asc
     operations-sorter: method
-    supported-submit-methods: []
+    supported-submit-methods: ["get", "post"]
   api-docs:
     path: /api-docs
   use-fqn: true
