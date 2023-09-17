@@ -25,4 +25,13 @@
             );
         </sql>
     </changeSet>
+    <changeSet id="2023-09-15-1-rsamarskyi" author="Roman Samarskyi">
+        <comment>Add collumn gender to table</comment>
+        <sql>
+            alter table users add column
+            (
+                gender       varchar(255) null
+            );
+        </sql>
+    </changeSet>
 </databaseChangeLog>
